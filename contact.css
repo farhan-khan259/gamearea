@@ -1,0 +1,297 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fff;
+    color: #333;
+    padding-top: 150px;
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    /* stays above other elements */
+    background-color: white;
+    /* ensure it's visible over background */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    /* optional: subtle shadow */
+}
+
+
+.top-bar {
+    background: #f2f2f2;
+    padding: 3px 30px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1rem;
+    align-items: center;
+}
+
+
+
+.sociallinks {
+    font-size: 30px;
+}
+
+
+
+.logo-flex {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.logo-flex img {
+    height: 50px;
+    width: 50px;
+    border-radius: 12px;
+}
+
+.logo-flex h1 {
+    font-size: 2rem;
+    font-weight: 700;
+
+
+}
+
+
+
+nav {
+    background: #FFF;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 80px;
+    align-items: center;
+    height: 10vh;
+    font-weight: 500;
+
+}
+
+nav .logo {
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 60px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+
+}
+
+
+nav ul li {
+    cursor: pointer;
+}
+
+nav button {
+    background: red;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 6px;
+    font-size: 20px;
+
+    cursor: pointer;
+}
+
+nav ul li button a {
+    color: #FFF;
+}
+
+
+.contactuspic img {
+    height: 45vh;
+    width: 100%;
+}
+
+.contact-container {
+    display: flex;
+    max-width: 1000px;
+    margin: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 100px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
+}
+
+.contact-info {
+    flex: 1;
+    padding: 40px;
+    background-color: #ffffff;
+}
+
+.contact-form {
+    flex: 1;
+    background-color: #f0f8ff;
+    padding: 40px;
+    border-left: 1px solid #eaeaea;
+}
+
+.small-red {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+.sub-text {
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.info-block {
+    display: flex;
+    align-items: start;
+    margin-bottom: 25px;
+}
+
+.icon {
+    background-color: #eaf6fe;
+    color: #007bff;
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.info-block p {
+    color: #333;
+    margin-top: 4px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: 500;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    outline: none;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #007bff;
+}
+
+button {
+    margin-top: 20px;
+    background-color: red;
+    color: #fff;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: darkred;
+}
+
+
+
+
+
+.worktogthmain {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 40vh;
+    background-color: #000;
+    color: #FFF;
+    padding: 100px;
+}
+
+.worktogthmain h1 {
+    font-size: 48px;
+}
+
+.worktogthmain p {
+    font-size: 24px;
+}
+
+.worktogthmain button {
+    background: red;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 6px;
+    font-size: 20px;
+    width: 20%;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+
+.footermain {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 120px;
+}
+
+.companymain {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+
+}
+
+.servicemain {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+
+}
+
+.socialmain {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+
+}
+
+
+.lastline {
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+    justify-content: space-around;
+    font-size: 20px;
+    color: grey;
+}

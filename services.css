@@ -1,0 +1,475 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fff;
+    color: #333;
+    padding-top: 150px;
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    /* stays above other elements */
+    background-color: white;
+    /* ensure it's visible over background */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    /* optional: subtle shadow */
+}
+
+
+.top-bar {
+    background: #f2f2f2;
+    padding: 3px 30px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1rem;
+    align-items: center;
+}
+
+
+
+.sociallinks {
+    font-size: 30px;
+}
+
+
+
+.logo-flex {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.logo-flex img {
+    height: 50px;
+    width: 50px;
+    border-radius: 12px;
+}
+
+.logo-flex h1 {
+    font-size: 2rem;
+    font-weight: 700;
+
+
+}
+
+
+
+nav {
+    background: #FFF;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 80px;
+    align-items: center;
+    height: 10vh;
+    font-weight: 500;
+
+}
+
+nav .logo {
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 60px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+
+}
+
+
+nav ul li {
+    cursor: pointer;
+}
+
+nav button {
+    background: red;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 6px;
+    font-size: 20px;
+
+    cursor: pointer;
+}
+
+nav ul li button a {
+    color: #FFF;
+}
+
+
+.ourservicespic img {
+    height: 45vh;
+    width: 100%;
+}
+
+
+.leftboxes2 {
+    margin-top: 50px;
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+}
+
+.rightboxes2 {
+    margin-top: 30px;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.box2 {
+    text-align: left;
+    background-color: #FFF;
+    padding: 30px 80px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease;
+    border-radius: 8px;
+    border: 1px solid skyblue;
+}
+
+.box2:hover {
+    margin-top: -20px;
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+
+
+}
+
+.box2 p {
+    font-size: 20px;
+    color: grey;
+}
+
+
+.sixboxesmain {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+
+
+
+.fourthsec {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px 40px;
+    height: 30vh;
+    width: 80%;
+    background-color: #a2e3ff;
+    margin: 0 auto;
+    color: red;
+}
+
+
+.fourthsec p {
+    color: rgb(104, 104, 104);
+    margin-top: -25px;
+    font-weight: 600;
+}
+
+.fourthsec h1 {
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.fourthsec span {
+    color: black;
+}
+
+.happuclient {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.clientglobbal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.userreq {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.awarwon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.testimonialmain {
+    padding: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.testpara1 {
+    color: red;
+    font-size: 20px;
+}
+
+.lefttestimoial h1 {
+    color: #000;
+    font-size: 36px;
+}
+
+.testpara2 {
+    color: grey;
+    font-size: 24px;
+}
+
+.lefttestimoial button {
+    background: red;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 6px;
+    font-size: 20px;
+    width: 60%;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.lefttestimoial {
+    margin-top: 30px;
+}
+
+
+
+.testimonial-container {
+    width: 50%;
+    text-align: center;
+    padding: 40px 20px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+
+
+.testimonial-text {
+    font-size: 22px;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+
+.testimonial-user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 15px;
+}
+
+.testimonial-user img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.user-info {
+    text-align: left;
+}
+
+.user-info h4 {
+    margin: 0;
+    font-size: 18px;
+    color: #111;
+}
+
+.user-info p {
+    margin: 4px 0 0;
+    font-size: 14px;
+    color: #888;
+}
+
+.dots {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #ccc;
+}
+
+.dot.active {
+    background: #f00;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+.clientmain {
+    display: flex;
+    flex-direction: row;
+    padding: 80px;
+    justify-content: space-between;
+    background-color: #edf7ff;
+    height: 40vh;
+}
+
+.client {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.client h1 {
+    font-size: 40px;
+}
+
+.clientpara1 {
+    font-size: 20px;
+    color: red;
+
+}
+
+
+.clientpara2 {
+    font-size: 22px;
+    color: grey;
+
+}
+
+.clientimagesmian {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.imagesline1 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.imagesline2 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+
+.worktogthmain {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 40vh;
+    background-color: #000;
+    color: #FFF;
+    padding: 100px;
+}
+
+.worktogthmain h1 {
+    font-size: 48px;
+}
+
+.worktogthmain p {
+    font-size: 24px;
+}
+
+.worktogthmain button {
+    background: red;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 6px;
+    font-size: 20px;
+    width: 20%;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+
+.footermain {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 120px;
+}
+
+.companymain {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+
+}
+
+.servicemain {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+
+}
+
+.socialmain {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+
+}
+
+
+.lastline {
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+    justify-content: space-around;
+    font-size: 20px;
+    color: grey;
+}

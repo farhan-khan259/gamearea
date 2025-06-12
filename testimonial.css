@@ -1,0 +1,289 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fff;
+    color: #333;
+    padding-top: 150px;
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    /* stays above other elements */
+    background-color: white;
+    /* ensure it's visible over background */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    /* optional: subtle shadow */
+}
+
+
+.top-bar {
+    background: #f2f2f2;
+    padding: 3px 30px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1rem;
+    align-items: center;
+}
+
+
+
+.sociallinks {
+    font-size: 30px;
+}
+
+
+
+.logo-flex {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-flex img {
+    height: 50px;
+    width: 50px;
+    border-radius: 12px;
+}
+
+.logo-flex h1 {
+    font-size: 2rem;
+    font-weight: 700;
+
+
+}
+
+
+nav {
+    background: #FFF;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 80px;
+    align-items: center;
+    height: 10vh;
+    font-weight: 500;
+
+}
+
+nav .logo {
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 60px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+
+}
+
+
+nav ul li {
+    cursor: pointer;
+}
+
+nav button {
+    background: red;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 6px;
+    font-size: 20px;
+
+    cursor: pointer;
+}
+
+nav ul li button a {
+    color: #FFF;
+}
+
+
+.ourtestimonialpic img {
+    height: 45;
+    width: 100%;
+}
+
+
+.testimonialsmain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 120px;
+    box-sizing: border-box;
+    gap: 20px;
+    /* space between cards */
+}
+
+.testimonial-container {
+    width: 48%;
+    text-align: center;
+    padding: 40px 20px;
+    animation: fadeIn 1s ease-in-out;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+}
+
+.quote-icon img {
+    width: 30px;
+    margin-bottom: 10px;
+}
+
+.testimonial-text {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+}
+
+.testimonial-user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 15px;
+}
+
+.testimonial-user img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.user-info {
+    text-align: left;
+}
+
+.user-info h4 {
+    margin: 0;
+    font-size: 18px;
+    color: #111;
+}
+
+.user-info p {
+    margin: 4px 0 0;
+    font-size: 14px;
+    color: #888;
+}
+
+.dots {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #ccc;
+}
+
+.dot.active {
+    background: #f00;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+
+.worktogthmain {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 40vh;
+    background-color: #000;
+    color: #FFF;
+    padding: 100px;
+}
+
+.worktogthmain h1 {
+    font-size: 48px;
+}
+
+.worktogthmain p {
+    font-size: 24px;
+}
+
+.worktogthmain button {
+    background: red;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 6px;
+    font-size: 20px;
+    width: 20%;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+
+.footermain {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 120px;
+}
+
+.companymain {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+
+}
+
+.servicemain {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+
+}
+
+.socialmain {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+
+}
+
+
+.lastline {
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+    justify-content: space-around;
+    font-size: 20px;
+    color: grey;
+}

@@ -151,6 +151,12 @@
        cursor: pointer;
    }
 
+   .firstmainsec button a {
+       text-decoration: none;
+       color: #FFF;
+   }
+
+
 
    .secondsecmain {
        display: flex;
